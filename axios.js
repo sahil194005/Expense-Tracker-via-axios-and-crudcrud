@@ -114,8 +114,9 @@ function edit_expenses(e) {
   category.value = cati
   let unique_id
   axios
+  
     .get(
-        
+
       "https://crudcrud.com/api/6d97243f1b37463883b660040a1ad156/appointment2"
     )
     .then((res) => {
